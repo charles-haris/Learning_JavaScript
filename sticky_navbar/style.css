@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: coral;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+#navbar .toggler {
+    margin: 10px;
+    float: right;
+    display:none;
+}
+
+#navbar .toggler  div{
+    background-color: white;
+    width: 33px;    
+    height: 3px;
+    margin: 5px;
+}
+
+#navbar ul  li{
+    list-style: none;    
+    display: inline-flex;
+    padding: 0px 0px;
+}
+
