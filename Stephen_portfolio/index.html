@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -62,8 +63,8 @@
                          
 
                             <!-- navbar start-->
-                            <div class="container">
-                                <nav class="navbar fixed-top navbar-expand-lg  bg-body-tertiary rounded mt-5 colour-nav">
+                            <div id="navbarid" class="container">
+                                <nav id="nar-bar" class="navbar fixed-top navbar-expand-lg  bg-body-tertiary rounded mt-5 colour-nav">
                                     <div class="container-fluid">
                                         <a class="navbar-brand" href="#">
                                         <img class="pb-1" src="https://ui-avatars.com/api/?size=16&rounded=true&background=0D8ABC&color=fff&name=Stephen+Mboe" alt="" srcset="">
@@ -110,7 +111,7 @@
                             <div id="home" class=" block_1 ">
                                 <div class="container">
                                     <div class="mt-5 row">
-                                        <div class="intro col-lg-8 mt-5 pt-5"> 
+                                        <div class="intro col-lg-8 mt-5 pt-5" data-aos="fade-right" data-aos-duration="2000"> 
                                             <h2 id="paragraph" class="fw-light fs-3 mt-3 mb-4">Hi,Welcome to my portfolio</h2>
                                             <h1 class="fw-bolder display-2 mb-4"><div id="paragraph">I am a</div><span style="color: #0D8ABC;">GRAPHIC DESIGNER & VIDEO EDITOR</span></h1>
                             
@@ -119,7 +120,7 @@
                                             <a class="btn border"  href="#" download="file1">Download CV</a>
                                             <!-- <button href="#home"  class="btn"><img src="asset/images/up-arrow.png" alt=""></button> -->
                                         </div>
-                                        <div id="photography" class="image col-lg-4 col-md-4  mt-5 pt-5">
+                                        <div id="photography" class="image col-lg-4 col-md-4  mt-5 pt-5" data-aos="fade-left" data-aos-duration="2000">
                                             <img width="300" class="m-auto" src="asset/images/pngwing.com (3).png" alt="">
                                         </div>
                                     </div>
@@ -140,7 +141,7 @@
                                     <div class="image container pb-5">
                                         <div class="mt-5 row">
 
-                                            <section class="card col-lg-3 col-md-4 me-2 mb-2 p-0">
+                                            <section class="card col-lg-3 col-md-4 me-2 mb-2 p-0 " data-aos="zoom-in" data-aos-duration="1000">
                                                 <style>
                                                     .part111{
                                                         width: 100%; 
@@ -163,7 +164,7 @@
     
                                             </section>
     
-                                            <section class="card col-lg-3 col-md-4 me-2 mb-2 p-0">
+                                            <section class="card col-lg-3 col-md-4 me-2 mb-2 p-0" data-aos="zoom-in" data-aos-duration="1000">
                                                 <div class="part1 part111">
                                                     <img class="d-none d-sm-block img2 m-auto" src="asset/images/pngwing.com (5).png" alt="">
     
@@ -176,7 +177,7 @@
                                             </section>
 
 
-                                            <section class="card col-lg-3 col-md-4 me-2 mb-2 p-0">
+                                            <section class="card col-lg-3 col-md-4 me-2 mb-2 p-0" data-aos="zoom-in" data-aos-duration="1000">
                                                 <div class="part1 part111">
                                                     <img class="d-none d-sm-block img2 m-auto" src="asset/images/pngwing.com (6).png" alt="">
     
@@ -188,7 +189,7 @@
     
                                             </section>
     
-                                            <section class="card col-lg-3 col-md-4 me-2 mb-2 p-0">
+                                            <section class="card col-lg-3 col-md-4 me-2 mb-2 p-0" data-aos="zoom-in" data-aos-duration="1000">
                                                 <div class="part1 part111">
                                                     <img class="d-none d-sm-block img2 m-auto" src="asset/images/pngwing.com (7).png" alt="">
     
@@ -201,7 +202,7 @@
                                             </section>
     
     
-                                            <section class="card col-lg-3 col-md-4 me-2 mb-2 p-0">
+                                            <section class="card col-lg-3 col-md-4 me-2 mb-2 p-0" data-aos="zoom-in" data-aos-duration="1000">
                                                 <div class="part1 part111">
                                                     <img class="d-none d-sm-block img2 m-auto" src="asset/images/pngwing.com (5).png" alt="">
     
@@ -232,7 +233,10 @@
                               <!-- block2 end -->
 
                              <!-- block3 start -->
-                             <div id="about_me" class="block_3 mt-2 pt-4  container mb-2 ">
+                             <div id="about_me" class="block_3 mt-2 pt-4  container mb-2 " data-aos="fade-right"
+                             data-aos-offset="300"
+                             data-aos-easing="ease-in-sine"
+                             >
                                 <div class="title mt-5 pt-4">
                                     <span id="paragraph" class="h6 fw-light border border-2 border-primary  p-1 mb-2 rounded-title-border">About Me</span>
                                     <h1 id="paragraph" class="mt-5">A passionate Graphic Designer</h1>
@@ -291,7 +295,7 @@
 
 
                                 <div class="row pt-2 pb-5">
-                                    <section class="col-lg-8 ">
+                                    <section class="col-lg-8 " data-aos="fade-left" data-aos-duration="2000">
                                         <p style="text-align:left;" class="fw-normal fs-5">Lorem Ipsum is simply dummy text of the printing and 
                                             typesetting industry. Lorem Ipsum has been the industry's 
                                             standard dummy text ever since the 1500s.  when an unknown 
@@ -309,7 +313,7 @@
 <!--                                     <h2 class="fw-light fs-6 mb-1" style="color: #0D8ABC;">Actual position</h2>
  -->
                     
-                                    <section class="col-lg-4 pt-2 pb-2 text-white rounded" style="background-color: #0D8ABC;">
+                                    <section class="col-lg-4 pt-2 pb-2 text-white rounded" style="background-color: #0D8ABC;" data-aos="zoom-in" data-aos-duration="2000">
                                         <h2 class="text-light fw-light fs-6">Name</h2>
                                         <p  id="paragraph" class="fw-normal fs-5">Stephen Mboe</p>
                         
@@ -333,7 +337,7 @@
                              <!-- block4 start -->
 
                              <div id="resume" class="block_4 mt-2 pt-4  pb-5 container mb-2">
-                                <div class="title mt-5 pt-4">
+                                <div class="title mt-5 pt-4" data-aos="zoom-in" data-aos-duration="1000">
                                     <span id="paragraph" class="h6 fw-light border border-2 border-primary  p-1 mb-2 rounded-title-border">Resume</span>
                                     <h1 id="paragraph" class="mt-5">Education and practical experience</h1>
 
@@ -345,7 +349,7 @@
                     
                                 </div>
 
-                                <div class="container">
+                                <div class="container" data-aos="fade-left" data-aos-duration="2000">
                                     <section class="row border-top  pt-3 border-dark">
                                         <div class="col-lg-3"><p class="fw-bolder fs-5" id="paragraph" >2008-2009</p></div>
                                         <div class="col-lg-3 text-start">
@@ -386,7 +390,7 @@
                     
                                 </div>
 
-                                <div class="container">
+                                <div class="container" data-aos="fade-right" data-aos-duration="2000">
                                     <h3 id="paragraph" class="fw-semibold fs-2 mt-5 pb-3">Work experience</h3>
 
                                     <section class="row border-top  pt-3 border-dark">
@@ -429,7 +433,7 @@
                     
                                 </div>
 
-                                <div class="container pt-2">
+                                <div class="container pt-2" data-aos="zoom-in" data-aos-duration="2000">
                                     <h3 id="paragraph" class="fw-semibold fs-2 mt-5  pb-3">My favorite tools</h3>
                                     <div class="row" >
                                         <section class="col-lg-2 col-sm-4 col-md-4 mb-3">
@@ -513,7 +517,7 @@
 
 
                              <!-- block5 start -->
-                                <div id="contact" class="block_5  mt-2 pt-4 pb-5 container mb-2">
+                                <div id="contact" class="block_5  mt-2 pt-4 pb-5 container mb-2" data-aos="fade-down" data-aos-duration="2000">
                                     <div class="title mt-5 pt-4">
                                         <span id="paragraph" class="h6 fw-light border border-2 border-primary  p-1 mb-2 rounded-title-border">Contact</span>
                                         <h1 id="paragraph" class="mt-5">Let's make something <br> awesome together!</h1>
@@ -624,8 +628,57 @@
         </div>
         
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        $("document").ready(function(){
+    
+            AOS.init();
+        });
+    
+        
+    
+        /* $(document).ready(
+    function(){
+        $("#home").hide();
+    
+        $("#home").fadeIn(3000);
+    
+        $("#portfolio").hide();
+    
+        $("#portfolio").fadeIn(3000);
+    
+    
+        $("#intro_sentence").slideUp(300);
+        
+        //add one css property to a button
+        $(".c_btn").css('backgroung','red');
+    
+    
+        //add one css property to a button
+        $('.c_btn2').css({'backgroung':'red'});
+        //$("#intro_sentence").hide();
+    
+        $(".btn").click(
+            function(){
+                //$("#intro_sentence").show(3000);
+                //$("#intro_sentence").slideDown(300);
+                $("#intro_sentence").slideToggle(300);
+            }
+        );
+    
+    }
+    ); */
+    
+    
+    
+    
+    
+    
+    </script>
 
 </body>
 </html>
